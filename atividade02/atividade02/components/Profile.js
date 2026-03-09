@@ -1,20 +1,28 @@
 export default function Profile() {
   return (
-    <div style={{ textAlign: "center", marginTop: "20px" }}>
+    <div style={{ textAlign: "center"}}>
+    <br></br>
+    <div style={{ display: "flex", justifyContent: "center", marginBottom: "20px" }}>
       <img
         src="/foto.jpg"
         alt="Foto de Sofia"
         width="200"
-        style={{ borderRadius: "50%" }}
+        style={{ borderRadius: "20%" }}
       />
+      </div>
 
       <h2>Sofia Viana</h2>
 
       <p>
-        Estudante de Sistemas para Internet com interesse em desenvolvimento
-        web e qualidade de software (QA). Gosto de aprender novas tecnologias
-        e criar soluções simples e eficientes para problemas do dia a dia.
-      </p>
+        Olá! tenho 19 anos, estou cursando Sistemas para Internet na UNICAP e
+        estou no 3° período.
+    </p>
+    <p>
+        técnica em Programação de Jogos Digitais pela ETE Cícero Dias. 
+    </p>
+    <p>
+        Tenho interesse na área de Dados, especificamente em Ánalise.
+    </p>
     </div>
   );
 }
